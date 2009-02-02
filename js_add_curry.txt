@@ -1,0 +1,10 @@
+//curried add code
+
+function add() {
+var sum = 0;
+for (var i = 0; i < arguments.length; i++) sum += arguments[i];
+return sum;
+}
+
+add(1, 2); // returns 3
+add(1, 2, 3, 4, 5); // returns 15 

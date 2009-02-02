@@ -1,0 +1,44 @@
+/* css */
+
+body {
+	background-color:#000;
+	font-family:Arial;
+	color:#ccc;
+}
+
+#div_content {
+	font-size:10pt;
+	color:#ccc;
+	font-weight:700;
+	width:80%;
+	margin: 10% auto;
+	border: 1px dotted #333;
+	padding: 10px;
+}
+
+#div_footer {
+	margin: 10% auto;
+	width:80%;
+	font-size:8pt;
+	color:#999;
+	font-weight:300;
+	text-align:center;
+}
+
+#div_footer a:link {
+	text-decoration:none;
+	color:#999;
+	font-size:8pt;
+}
+
+#div_footer a:visited {
+	text-decoration:none;
+	color:#999;
+	font-size:8pt;
+}
+
+li {
+	list-style-type:square;
+	font-weight:300;
+}
+
